@@ -211,7 +211,7 @@ NSString * const DEFAULT_IMAGE_SCALE = @"center";
 												 name:UIDeviceOrientationDidChangeNotification
 											   object:nil];
 
-	moviePlayer.controlStyle = MPMovieControlStyleDefault;
+	moviePlayer.controlStyle = 'NONE';
 
 	moviePlayer.shouldAutoplay = YES;
 	if (imageView != nil) {
